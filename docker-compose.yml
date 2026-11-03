@@ -1,5 +1,5 @@
 # ============================================================
-# Vocero CRM — Ruta B: app + Postgres + Caddy (HTTPS automático)
+# RecreaCRM — Ruta B: app + Postgres + Caddy (HTTPS automático)
 # Uso:        pnpm init-env --domain tu.dominio  →  pnpm doctor  →  docker compose up -d
 #             (sin Node: cp .env.example .env y rellenar a mano)
 # Actualizar: git pull  →  docker compose up -d
@@ -45,7 +45,7 @@
 # ============================================================
 services:
   app:
-    image: ghcr.io/kevinrivm/vocero-crm:${VOCERO_CRM_VERSION:-2.7.0}
+    image: ghcr.io/gannoko/recreacrm:${VOCERO_CRM_VERSION:-2.7.0}
     build: .
     restart: unless-stopped
     environment:

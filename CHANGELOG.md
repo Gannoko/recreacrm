@@ -3,7 +3,7 @@
 Qué trae cada versión de Vocero CRM y qué hacer para actualizar. La versión
 sigue el SemVer del [README](README.md#versiones): una menor trae funciones
 nuevas y actualizar es redesplegar. Desde 1.4.0, cada tag `vX.Y.Z` publica la
-imagen `ghcr.io/kevinrivm/vocero-crm:X.Y.Z`.
+imagen `ghcr.io/gannoko/recreacrm:X.Y.Z`.
 
 ## Sin publicar
 
